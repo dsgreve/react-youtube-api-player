@@ -1,0 +1,14 @@
+body {
+  margin-top: 2rem;
+  background-color: salmon;
+}
+
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item img {
+  max-width: 180px;
+}
