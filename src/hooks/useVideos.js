@@ -7,6 +7,7 @@ const useVideos = (search) => {
   useEffect(() => {
     // videos
     onTermSubmit(search); //input
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // video state with output
